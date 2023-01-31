@@ -67,5 +67,19 @@ public class Main {
         String s3 = "COREY".toLowerCase();
         System.out.println(s3);
 
+//        Double.POSITIVE_INFINITY
+        Integer num = 12;
+        int prim = 12;
+        num = null;
+
+        System.out.println(1.0/0);
+
+        long l = 19234567789L;
+        if(l <= Integer.MAX_VALUE) {
+            int longAsInt = (int) l;
+        }
+
+        int i = (int) Long.MAX_VALUE;
+        System.out.println("i: " + i);
     }
 }
