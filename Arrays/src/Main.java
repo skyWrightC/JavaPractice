@@ -22,8 +22,35 @@ public class Main {
         for (String name : names) System.out.println(name);
 
 
-    //    strings As char arrays accessing the first character.
+//    strings As char arrays accessing the first character.
     String name = "Corey";
+
+
     System.out.println(name.charAt(0));
+
+//    looping thrugh a char array to print every character
+
+    for (char c : name.toCharArray()) System.out.println(c);
+//    trims empty spaces and print only the characters
+    System.out.println("    Barry    ".trim());
+
+//    concatenate to strings together
+    String fullName = "Corey" + " " + "Wright";
+        System.out.println(fullName);
+
+//    concatenation via string builder is considered more efficent as it is faster and uses less memory
+    StringBuilder sb = new StringBuilder();
+    sb.append("Corey");
+    sb.append(" ");
+    sb.append("Wright");
+
+        System.out.println(sb);
+//    reverses string builder permanently
+        System.out.println(sb.reverse());
+//        will print sb now reversed
+        System.out.println(sb);
+//        reverses the string back to the correct way
+        System.out.println(sb.reverse());
+
     }
 }
