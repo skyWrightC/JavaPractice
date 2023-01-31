@@ -1,4 +1,4 @@
-import Pasta.Pasta;
+package com.sky.Pasta;
 
 public class Main {
     public static void main(String[] args) {

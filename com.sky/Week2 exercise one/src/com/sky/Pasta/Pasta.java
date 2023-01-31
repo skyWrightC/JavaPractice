@@ -1,4 +1,4 @@
-package Pasta;
+package com.sky.Pasta;
 
 public class Pasta {
 

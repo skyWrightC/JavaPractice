@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.sky/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/com.sky/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.sky/Inheritance/Inheritance.iml" filepath="$PROJECT_DIR$/com.sky/Inheritance/Inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaPractice.iml" filepath="$PROJECT_DIR$/.idea/JavaPractice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Week2 exercise one/Week2 exercise one.iml" filepath="$PROJECT_DIR$/Week2 exercise one/Week2 exercise one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.sky/Week2 exercise one/Week2 exercise one.iml" filepath="$PROJECT_DIR$/com.sky/Week2 exercise one/Week2 exercise one.iml" />
     </modules>
   </component>
 </project>
