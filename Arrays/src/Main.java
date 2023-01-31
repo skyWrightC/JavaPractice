@@ -63,6 +63,9 @@ public class Main {
         System.out.println(s1 == s2);
 //        .equals is preferred to '=='
         System.out.println(s1.equals(s2));
+//        converts a string to lowercase
+        String s3 = "COREY".toLowerCase();
+        System.out.println(s3);
 
     }
 }
