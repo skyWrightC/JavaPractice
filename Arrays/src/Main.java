@@ -81,5 +81,10 @@ public class Main {
 
         int i = (int) Long.MAX_VALUE;
         System.out.println("i: " + i);
+
+
+//        Parsed ints and Strings
+        int parsed = Integer.parseInt("123");
+        System.out.println(parsed);
     }
 }
