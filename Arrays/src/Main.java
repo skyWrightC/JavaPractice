@@ -10,5 +10,13 @@ public class Main {
         for (int i = 0; i < oneToTen.length; i++) {
             System.out.println(i + ":" + oneToTen[i]);
         }
+        System.out.println(oneToTen[999]); //there is no index at 999 so it breaks
+
+        String [] names = {"Corey", "Jamie", "Steve"};
+
+        for (int i = 0; i < names.length; i++){
+            System.out.println(i +":" + names[i]);
+        }
+        for (String name : names) System.out.println(name);
     }
 }
