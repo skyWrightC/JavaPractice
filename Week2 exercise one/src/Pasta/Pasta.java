@@ -8,6 +8,7 @@ public class Pasta {
 
     private String shape;
     private String name;
+
     public String getName() {
         return name;
     }
@@ -17,17 +18,16 @@ public class Pasta {
     }
 
 
-
-
-    public Pasta(int weight, int height, String shape, String name){
+    public Pasta(int weight, int height, String shape, String name) {
         super();
         this.weight = weight;
         this.height = height;
         this.shape = shape;
         this.name = name;
     }
-    public Pasta(){
-        this(10,4,"long", "Penne");
+
+    public Pasta() {
+        this(10, 4, "long", "Penne");
     }
 
 
@@ -65,5 +65,7 @@ public class Pasta {
 
         return message;
     }
+
 }
+
 

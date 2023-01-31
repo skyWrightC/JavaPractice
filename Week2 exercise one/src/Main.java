@@ -19,6 +19,16 @@ public class Main {
         Pasta p3 = new Pasta(5, 5, "round", "square");
         System.out.println(p3.cookMethod(null));
 
-    }
+        Pasta[] pastas = {p1, p2, p3, new Pasta(3,5,"triangle", "tortellini2")};
 
+        for(int i = 0; i < pastas.length; i++){
+            System.out.println(i + ":" + pastas[i].cookMethod(null));
+        }
+        for (Pasta p :pastas
+             ) {
+            System.out.println(p.cookMethod(null));
+        }
+
+
+    }
 }
