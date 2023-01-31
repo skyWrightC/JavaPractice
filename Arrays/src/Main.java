@@ -52,5 +52,17 @@ public class Main {
 //        reverses the string back to the correct way
         System.out.println(sb.reverse());
 
+        System.out.println("STRING COMPARISON:");
+//        Checks the string as a boolean;
+        System.out.println("Corey" == "Corey");
+        String s1 = "Corey";
+//        will change all characters to uppercase
+        String s2 = "corey".toUpperCase();
+        System.out.println(s1 + " " + s2);
+//        will print a boolean returning false as one corey has been altered to upper case
+        System.out.println(s1 == s2);
+//        .equals is preferred to '=='
+        System.out.println(s1.equals(s2));
+
     }
 }
