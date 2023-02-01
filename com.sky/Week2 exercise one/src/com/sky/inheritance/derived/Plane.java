@@ -15,4 +15,12 @@ public class Plane extends Vehicle {
     public void honkHorn() {
         System.out.println("nyoooooooom");
     }
+
+    public boolean isPropeller() {
+        return propeller;
+    }
+
+    public void setPropeller(boolean propeller) {
+        this.propeller = propeller;
+    }
 }

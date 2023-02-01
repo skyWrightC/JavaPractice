@@ -23,15 +23,22 @@ public class Runner {
 
         Vehicle[] vehicles = {c, l, new Plane("White", true)};
 
+        float totalBill = 0;
+
         for (Vehicle vehicle : vehicles) {
             System.out.println(vehicle);
 
-            vehicle.honkHorn();
-
             if (vehicle instanceof Car) {
                 Car c1 = (Car) vehicle;
-                c1.setBootOpen(true);
+                totalBill += c1.isBootOpen() ? 100 : 50;
+            } else if (vehicle instanceof Lorry) {
+                totalBill += ((Lorry) vehicle).trailerAttached ? 10_000 * vehicle.getNumDoors() : 1_000;
+            } else if (vehicle instanceof Plane) {
+                totalBill += ((Plane) vehicle).isPropeller() ? 500 : 1_000;
+
             }
         }
+
+        System.out.println("Total bill: " + totalBill);
     }
 }
